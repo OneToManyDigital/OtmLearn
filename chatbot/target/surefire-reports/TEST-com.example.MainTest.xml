@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.MainTest" time="0.064" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.example.MainTest" time="0.05" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\yosa3\AppData\Local\Temp\surefire6306549635699271399\surefirebooter9148189497599338215.jar C:\Users\yosa3\AppData\Local\Temp\surefire6306549635699271399 2024-08-02T15-27-19_057-jvmRun1 surefire7410834653357745616tmp surefire_03944753551473985727tmp"/>
+    <property name="sun.java.command" value="C:\Users\yosa3\AppData\Local\Temp\surefire11512907002119759483\surefirebooter12089531665874922196.jar C:\Users\yosa3\AppData\Local\Temp\surefire11512907002119759483 2024-08-02T16-15-27_380-jvmRun1 surefire9420686533599378430tmp surefire_06876911926703886127tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\yosa3\Documents\développement\Lucas\OtmLearn\try2\OtmLearn\chatbot\target\test-classes;C:\Users\yosa3\Documents\développement\Lucas\OtmLearn\try2\OtmLearn\chatbot\target\classes;C:\Users\yosa3\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\yosa3\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.3.21\kotlin-stdlib-1.3.21.jar;C:\Users\yosa3\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.3.21\kotlin-stdlib-common-1.3.21.jar;C:\Users\yosa3\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\yosa3\.m2\repository\org\assertj\assertj-core\3.12.2\assertj-core-3.12.2.jar;C:\Users\yosa3\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\yosa3\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\yosa3\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\yosa3\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\yosa3\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\yosa3\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\yosa3\AppData\Local\Temp\surefire6306549635699271399\surefirebooter9148189497599338215.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\yosa3\AppData\Local\Temp\surefire11512907002119759483\surefirebooter12089531665874922196.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -58,5 +58,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="testMain" classname="com.example.MainTest" time="0.038"/>
+  <testcase name="testMain" classname="com.example.MainTest" time="0.031"/>
 </testsuite>
