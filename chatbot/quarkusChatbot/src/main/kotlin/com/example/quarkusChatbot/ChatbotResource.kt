@@ -7,6 +7,7 @@ import jakarta.inject.Inject
 import jakarta.ws.rs.*
 import jakarta.ws.rs.core.MediaType
 import jakarta.ws.rs.core.Response
+import org.jboss.resteasy.reactive.RestQuery
 
 @Path("/chat")
 class ChatbotResource {
@@ -28,14 +29,18 @@ class ChatbotResource {
     @Produces(MediaType.APPLICATION_JSON)
     fun chat(message: Map<String, String>): Uni<Response> {
         //val userMessage = message["userMessage"] ?: return Response.status(Response.Status.BAD_REQUEST).build()
+        System.out.println(message)
         val userMessage =
             message["userMessage"] ?: return Uni.createFrom().item(Response.status(Response.Status.BAD_REQUEST).build())
+        val memoryId =
+            message["userId"] ?: return Uni.createFrom().item(Response.status(Response.Status.BAD_REQUEST).build())
         //val botResponse = responses.random()
+        System.out.println("iaRespond Invoked")
         return Uni.createFrom()
             .emitter {
                 vertx
                     .executeBlocking { ->
-                        iaService.iaRespond(userMessage)
+                        iaService.iaRespond(memoryId=memoryId, userMessage=userMessage)
                     }.onSuccess { res ->
                         it.complete(res)
                     }
